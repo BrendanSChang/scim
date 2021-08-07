@@ -6,6 +6,11 @@
 
 [![Tag](https://img.shields.io/github/tag/elimity-com/scim.svg)](https://gitHub.com/elimity-com/scim/releases)
 
+> This is a fork of the elimity-com/scim repository which updates the PATCH
+> logic to handle Microsoft Azure AD non-compliance SCIM 2.0 behavior (see
+> https://docs.microsoft.com/en-us/azure/active-directory/app-provisioning/application-provisioning-config-problem-scim-compatibility).
+> The changes are in the bool-validation-fix branch.
+
 This is an open source implementation of the [SCIM v2.0](http://www.simplecloud.info/#Specification) specification for use in Golang.
 SCIM defines a flexible schema mechanism and REST API for managing identity data.
 The goal is to reduce the complexity of user management operations by providing patterns for exchanging schemas using HTTP.
